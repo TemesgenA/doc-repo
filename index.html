@@ -102,10 +102,11 @@
         All HTML documents consist of nested HTML elements.
 
         The following example contains four HTML elements (<html>,
-
+        <!--
         <body>, <h1> and <p>):</p>
-            <h5>Example</h5><br>
-            <code>
+            <h5>Example</h5><br> -->
+          <code>
+          <!--
           <!DOCTYPE html>
           <html>
             <body>
@@ -113,6 +114,7 @@
               <p>My first paragraph.</p>
             </body> 
             </html>
+          -->
         </code>
     </section>
 
@@ -127,6 +129,7 @@
             changes the height, definining how many options are visible in the closed state.</p>
       </p>
       <code>
+        <!---->
           <label for="fruit">Enter a fruit</label> <input type="text" size="15" id="fruit">
           <label for="vegetable">Enter a vegetable</label> <input type="text" id="vegetable">
 
@@ -149,8 +152,7 @@
 
     <section class="main-section" id="Obsolete">
       <header id="Obsolete">Obsolete</header>
-      <p>
-      Inline<br>
+      <p>Inline<br>
       In this article, we'll examine HTML inline-level elements and how they differ from block-level elements. HTML
       (Hypertext Markup Language) elements historically were categorized as either "block-level" elements or
       "inline-level" elements. Since this is a presentational characteristic it is nowadays specified by CSS in the Flow
