@@ -18,10 +18,10 @@
 
     <ul class="nav-list">
       <li class="nav-list-item"> <a class="nav-link" href="#Introduction">Introduction</a></li>
-      <li class="nav-list-item"> <a class="nav-link" href="#Attributes">Attributes</a>></li>
-      <li class="nav-list-item"> <a class="nav-link" href="#Elements">Elements</a>></li>
-      <li class="nav-list-item"> <a class="nav-link" href="#Miscellaneous">Miscellaneous</a>></li>
-      <li class="nav-list-item"> <a class="nav-link" href="#Obsolete">Obsolete</a>></li>
+      <li class="nav-list-item"> <a class="nav-link" href="#Attributes">Attributes</a></li>
+      <li class="nav-list-item"> <a class="nav-link" href="#Elements">Elements</a></li>
+      <li class="nav-list-item"> <a class="nav-link" href="#Miscellaneous">Miscellaneous</a></li>
+      <li class="nav-list-item"> <a class="nav-link" href="#Obsolete">Obsolete</a></li>
     </ul>
   </nav>
 
@@ -54,7 +54,7 @@
         </head>
         <body>
         
-        <h1>My First Heading</h1>
+        <h5>My First Heading</h5>
         <p>My first paragraph.</p>
         
         </body>
@@ -71,17 +71,15 @@
         Attributes usually come in name/value pairs like: name="value"</p>
       <p>There are two ways to specify the URL in the src attribute:
 
-        1. Absolute URL - Links to an external image that is hosted on another website. Example:
-        src="https://www.w3schools.com/images/img_girl.jpg".
+        1. Absolute URL - Links to an external image that is hosted on another website.
 
         Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation
         of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
 
         2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain
         name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg".
-        If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</p>
+        If the URL begins with a slash, it will be relative to the domain.</p>
       <code>
-          <img src="img_girl.jpg">
         </code>
 
     </section>
@@ -98,72 +96,53 @@
       </p>
       <p>Nested HTML Elements
         HTML elements can be nested (this means that elements can contain other elements).
-
         All HTML documents consist of nested HTML elements.
-
-        The following example contains four HTML elements (<html>,
-        <!--
-        <body>, <h1> and <p>):</p>
-            <h5>Example</h5><br> -->
-          <code>
-          <!--
-          <!DOCTYPE html>
-          <html>
-            <body>
-              <h1>My First Heading</h1>
-              <p>My first paragraph.</p>
-            </body> 
-            </html>
-          -->
+        The following example contains four HTML elements</p>
+        <code>
         </code>
     </section>
 
     <section class="main-section" id="Miscellaneous">
       <header id="Miscellaneous">Miscellaneous</header>
-      <p>The size attribute defines the width of the <input> and the height of the <select> element. For the input, if
-          the type attribute is text or password then it's the number of characters. This must be an integer value 0 or
-          higher. If no size is specified, or an invalid value is specified, the input has no size declared, and the
-          form control will be the default width based on the user agent. If CSS targets the element with properties
-          impacting the width, CSS takes precedence. The size attribute has no impact on constraint validation. Examples
-          <p>By adding size on some input types, the width of the input can be controlled. Adding size on a select
-            changes the height, definining how many options are visible in the closed state.</p>
+      <p>
+        Applying color
+        Attributes
+        Attributes.accept
+        Attributes.autocomplete
+        Attributes.capture
+        Attributes.crossorigin
+      </p>
+      <p>
+        Structuring a page of content ready for laying it out using CSS is a very important skill to master, so in this assessment you'll be tested on your ability to think about how a page might end up looking, and choose appropriate structural semantics to build a layout on top of.
+        We all learn to write a letter sooner or later; it is also a useful example to test our text formatting skills. In this assignment, you'll have a letter to mark up as a test for your HTML text formatting skills, as well as hyperlinks and proper use of the HTML head element.
+        Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article will introduce you to some tools that can help you find and fix errors in HTML.
       </p>
       <code>
-        <!---->
-          <label for="fruit">Enter a fruit</label> <input type="text" size="15" id="fruit">
-          <label for="vegetable">Enter a vegetable</label> <input type="text" id="vegetable">
 
-          <select name="fruits" size="5">
-            <option>banana</option>
-            <option>cherry</option>
-            <option>strawberry</option>
-            <option>durian</option>
-            <option>blueberry</option>
-          </select>
-          <select name="vegetables" size="5">
-          <option>carrot</option>
-          <option>cucumber</option>
-          <option>cauliflower</option>
-          <option>celery</option>
-          <option>collard greens</option>
-          </select>
         </code>
     </section>
 
     <section class="main-section" id="Obsolete">
       <header id="Obsolete">Obsolete</header>
-      <p>Inline<br>
-      In this article, we'll examine HTML inline-level elements and how they differ from block-level elements. HTML
-      (Hypertext Markup Language) elements historically were categorized as either "block-level" elements or
-      "inline-level" elements. Since this is a presentational characteristic it is nowadays specified by CSS in the Flow
-      Layout. Inline elements are those which only occupy the space bounded by the tags defining the element, instead of
-      breaking the flow of the content.
-      </p>
+      <p>In this article, we'll examine HTML inline-level elements and how they differ from block-level elements. HTML
+        (Hypertext Markup Language) elements historically were categorized as either "block-level" elements or
+        "inline-level" elements. Since this is a presentational characteristic it is nowadays specified by CSS in the
+        Flow
+        Layout. Inline elements are those which only occupy the space bounded by the tags defining the element, instead
+        of
+        breaking the flow of the content.</p>
       <p>A complete list of deprecated HTML tags and attributes are given here. All the tags have been ordered
-        alphabetically along with their equivalent tag or alternate CSS option.</p>
+        alphabetically along with their equivalent tag or alternate CSS option.
+        A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.
+        HTML Tables
+        A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.
+        In the second article in this module, we look at some more advanced features of HTML tables — such as captions/summaries and grouping your rows into table head, body and footer sections — as well as looking at the accessibility of tables for visually impaired users.
+        The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page <title>, links to CSS (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document). Web browsers use information contained in the head to render the HTML document correctly. In this article we'll cover all of the above and more, in order to give you a good basis for working with markup.
+          
+
+      </p>
       <code>
-      <!-- <center>This text will be centered.
-        <p>So will this paragraph.</p></center> -->
+
       </code>
     </section>
 
