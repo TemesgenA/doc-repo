@@ -39,3 +39,45 @@ header{
     color: #4d4e53;
     text-decoration: none;
 }
+
+#main-doc {
+    margin-left: 370px;
+    font-family: arial;
+    font-size: 15px;
+    color: #4d4e53;
+}
+
+p {
+    margin-top: 20px;
+    line-height: 22px;
+}
+  
+li {
+    margin-top: 20px;
+    line-height: 22px;
+}
+  
+code {
+    border-radius: 2px;
+    background-color: #f7f7f7;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+      float: none;
+      height: 200px;
+      width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
