@@ -10,6 +10,7 @@
     font-family: arial;
     color: #4d4e53;
   }
+
 header{
     font-size: 30px;
     font-family: arial;
@@ -18,5 +19,23 @@ header{
     color: black;
 }
 
+.nav-list {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 10px;
+}
 
-    
+.nav-list-item {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    margin-left: -40px;
+    padding-top: 15px;
+    height: 23px;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #4d4e53;
+    text-decoration: none;
+}
